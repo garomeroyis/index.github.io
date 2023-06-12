@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   width: 10vh;
+   height: 40vh;
+}
+.letra{
+    color: white;
+    margin: 2cm;
+    font-family: sans-serif;
+    margin:1cm ;
+    position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 60%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 5%; /* Desplaza la imagen hacia el 50% del ancho del contenedor */
+}
+.imaged{
+    margin:1cm ;
+    position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 2%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 2%; /* Desplaza la imagen hacia el 50% del ancho del contenedor */
+
+}
+.princi{
+    background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 2%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 50%; /* Desplaza la imagen hacia el 50% del ancho del contenedor */
+   color: white;
+   letter-spacing: 10px;
+   
+}
+.logoletras{
+    margin:1cm ;
+    position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 15%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 5%; /* Desplaza la imagen hacia el 50% del ancho del contenedor */
+
+}
+.letrau{
+    color: rgb(117, 115, 115);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.boton:hover {
+    background-color: #ff0000; /* Color de fondo al pasar el cursor sobre el botón */
+    
+  }
+  .boton {
+    background-color: #e01919; /* Color de fondo original */
+    /* Otros estilos del botón... */
+  }
+  .botond{
+    position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 80%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 11%; 
+    width: 100px;
+
+  }
+  .botondS{
+    position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 80%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 20%; 
+
+    
+}
+.BOTONS:hover {
+    background-color: #696969; /* Color de fondo al pasar el cursor sobre el botón */
+    
+  }
+  .BOTONS {
+    background-color: #3b3737; /* Color de fondo original */
+    /* Otros estilos del botón... */
+  }
+  .BOTONS{
+    position: absolute; /* Permite posicionar la imagen de forma absoluta dentro del contenedor */
+    top: 80%; /* Desplaza la imagen hacia el 50% de la altura del contenedor */
+    left: 11%; 
+    width: 100px;}
